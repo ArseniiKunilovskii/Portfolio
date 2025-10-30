@@ -1,5 +1,7 @@
 package com.pluralsight;
 
+import com.pluralsight.finance.BankAccount;
+
 public class Main {
     public static void main(String[] args) {
         BankAccount account1 = new BankAccount("Pam",123,  12500);

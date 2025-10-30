@@ -1,6 +1,8 @@
-package com.pluralsight;
+package com.pluralsight.finance;
 
-public class BankAccount implements Valuable{
+import com.pluralsight.Valuable;
+
+public class BankAccount implements Valuable {
     private String name;
     private int accountNumber;
     private double balance;
